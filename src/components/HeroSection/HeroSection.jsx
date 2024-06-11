@@ -69,9 +69,14 @@ export default function MyComponent() {
                   <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-base font-medium max-md:mt-10 max-md:max-w-full">
                       <div className="text-3xl text-purple-400 max-md:max-w-full">
-                        <span className="font-semibold">
-                          Hi! I'm Pranav Thakur <br />
-                          Python Developer
+                        <span className="font-semibold text-[#FFFFFF]">
+                          Hi! I'm Pranav
+                        </span>
+                        <span className="font-semibold"> Thakur</span> <br />
+                        <span className="font-semibold">Python</span>
+                        <span className="font-semibold text-[#ffffff]">
+                          {" "}
+                          Developer
                         </span>
                       </div>
                       <div className="mt-10 leading-6 text-gray-400 max-md:mt-10 max-md:max-w-full">
