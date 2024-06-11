@@ -6,11 +6,11 @@ import Image from "next/image";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function MyComponent() {
   return (
-    <div className="flex flex-col bg-gray-800">
+    <div className="flex flex-col bg-[#282C33]">
       <div className="flex self-start gap-5 ml-4 max-md:flex-wrap max-md:max-w-full">
         <div className="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full">
           <div className="flex justify-between gap-5 max-md:flex-wrap max-md:max-w-full">
-            <div className="flex flex-col self-start bg-gray-800">
+            <div className="flex flex-col self-start bg-[#282C33]">
               <div className="shrink-0 self-center w-0.5 bg-gray-400 h-[191px]" />
               <div className="flex flex-col items-center mt-2">
                 <Link
@@ -34,7 +34,7 @@ export default function MyComponent() {
               </div>
             </div>
             <div className="flex flex-col max-md:max-w-full">
-              <div className="flex justify-between w-full gap-5 pt-8 pb-2 text-base bg-gray-800 whitespace-nowrap max-md:flex-wrap max-md:max-w-full">
+              <div className="flex justify-between w-full gap-5 pt-8 pb-2 text-base bg-[#282C33] whitespace-nowrap max-md:flex-wrap max-md:max-w-full">
                 <div className="flex self-start gap-2 font-bold text-white">
                   <Image
                     loading="lazy"
@@ -93,7 +93,7 @@ export default function MyComponent() {
                         src={"/pranav.png"}
                         className="w-[90%] aspect-[-1.22] max-md:max-w-[90%]"
                       />
-                      <div className="flex gap-2.5 py-2 mx-9 bg-gray-800 border border-gray-400 border-solid max-md:mx-2.5">
+                      <div className="flex gap-2.5 py-2 mx-9 bg-[#282C33] border border-gray-400 border-solid max-md:mx-2.5">
                         <div className="w-4 h-4 my-auto bg-purple-400 border border-purple-400 border-solid shrink-0" />
                         <div>
                           <span className="font-medium">
@@ -110,9 +110,9 @@ export default function MyComponent() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col self-center mt-28 ml-20 max-w-full bg-gray-800 border border-gray-400 border-solid w-[712px] max-md:mt-10">
+          <div className="flex flex-col self-center mt-28 ml-20 max-w-full bg-[#282C33] border border-gray-400 border-solid w-[712px] max-md:mt-10">
             <div className="flex flex-col px-3 max-md:max-w-full">
-              <div className="flex justify-center items-center px-2 py-0.5 bg-gray-800 w-[41px]">
+              <div className="flex justify-center items-center px-2 py-0.5 bg-[#282C33] w-[41px]">
                 <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f613ab49b24d0ec380ce19b72fe860a228fdfcaa6b2810bc32ea8a56f40fcd4?apiKey=5413c174b82148c0adc1843a0c9aa9ed&"
@@ -123,7 +123,7 @@ export default function MyComponent() {
                 With great power comes great electricity bill
               </div>
             </div>
-            <div className="flex justify-center items-center self-end px-2 py-0.5 mt-4 bg-gray-800 w-[41px] max-md:mr-2.5">
+            <div className="flex justify-center items-center self-end px-2 py-0.5 mt-4 bg-[#282C33] w-[41px] max-md:mr-2.5">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f613ab49b24d0ec380ce19b72fe860a228fdfcaa6b2810bc32ea8a56f40fcd4?apiKey=5413c174b82148c0adc1843a0c9aa9ed&"
