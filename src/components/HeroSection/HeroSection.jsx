@@ -175,8 +175,8 @@ export default function MyComponent() {
                   <div className="flex flex-col p-4 font-medium border-t border-gray-400 border-solid">
                     <div className="text-2xl text-white">Smart Viscare</div>
                     <div className="mt-4 text-gray-400">
-                      SmartVisCare is heath care app creatd with take care of
-                      our eyes at ceratain intervals.
+                      SmartVisCare is heath care app created with Python that
+                      take care of your eyes at ceratain intervals.
                     </div>
                     <Link
                       href="https://github.com/PranavThakur07/Smart-Viscare"
